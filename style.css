@@ -96,7 +96,7 @@ section {
     padding: 100px 0;
 }
 .aboutMe .aboutMe-content,
-.technicalSkills .technicalSkils-content,
+.technicalSkills .technicalSkills-content,
 .projects .projects-content,
 .contact .contact-content {
     display: flex;
