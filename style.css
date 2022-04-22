@@ -356,10 +356,10 @@ footer span {
         width: 100%;
         left: -100%;
         top: 0;
-        background: #abc5c9;
+        background: #2b4552;
         text-align: center;
         padding-top: 80px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease-in;
     }
     .navbar .menu.active {
         left: 0;
