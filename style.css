@@ -142,11 +142,13 @@ section .title::before {
     width: 55%;
 }
 .about .aboutMe-content .right .text {
+    color: #2b4552;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .aboutMe .aboutMe-content .right p {
+    color: #2b4552;
     text-align: justify;
 }
 .aboutMe .aboutMe-content .right a {
