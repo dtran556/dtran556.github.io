@@ -246,24 +246,30 @@ section .title::before {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #2b4552;
 }
 .contact .contact-content .sub-title {
+    color: #2b4552;
     margin: 100px  -62px ;
     
 }
 .contact .contact-content .left p {
+    color: #2b4552;
     text-align: justify;
 }
 .contact .contact-content .left .icons {
+    color: #2b4552;
     margin: 10px 0;
 }
 .contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
+    color: #2b4552;
 }
 .contact .contact-content .row .info {
     margin-left: 30px;
+    color: #2b4552;
 }
 .contact .contact-content .row i {
     font-size: 30px;
@@ -271,6 +277,7 @@ section .title::before {
     color: #2b4552;
 }
 .contact .contact-content .right .row i {
+    color: #2b4552;
     font-size: 40px;
 }
 .contact .contact-content .right .row .info .sub-title a {
