@@ -138,7 +138,7 @@ section .title::before {
     object-fit: cover;
     border-radius: 50%;
 }
-.aboutMe .about-content .right {
+.aboutMe .aboutMe-content .right {
     width: 55%;
 }
 .about .aboutMe-content .right .text {
@@ -149,7 +149,7 @@ section .title::before {
 .aboutMe .aboutMe-content .right p {
     text-align: justify;
 }
-.aboutMe .about-contentMe .right a {
+.aboutMe .aboutMe-content .right a {
     display: inline-block;
     background: #557788;
     color: #2b4552;
