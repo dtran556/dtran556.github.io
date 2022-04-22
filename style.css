@@ -124,7 +124,7 @@ section .title::before {
 /*about*/
 .aboutMe {
     font-family: 'Poppins', sans-serif;  
-    background-color: #557788
+    background-color: #eeeae7
 }
 .aboutMe .aboutMe-content .left {
     width: 45%;
@@ -157,4 +157,96 @@ section .title::before {
     border-radius: 6px;
     border: 2px solid #557788;
     transition: all 0.2s ease-in;
+}
+.aboutMe .aboutMe-content .right a:hover {
+    color: #557788;
+    background: none;
+}
+/* SKILLS SECTION STYLING */
+.technicalSkills {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeeae7;
+}
+
+.technicalSkills .technicalSkills-content .column {
+    width: calc(50% - 30px);
+}
+.technicalSkills .technicalSkills .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.technicalSkills .technicalSkills .left p {
+    text-align: justify;
+}
+.technicalSkills .technicalSkills.right {
+    align-self: center;
+}
+.technicalSkills .technicalSkills .right .row {
+    width: 100%;
+    margin-left: 75px;
+    transition: all 0.3s ease;
+}
+.technicalSkills .technicalSkills .right .row img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.technicalSkills .technicalSkills .right .row i {
+    font-size: 75px;
+}
+/* contact */
+.contact {
+    background-color: #eeeae7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p {
+    text-align: justify;
+}
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+.contact .contact-content .row i {
+    font-size: 30px;
+    width: 30px;
+    color: #2b4552;
+}
+.contact .contact-content .right .row i {
+    font-size: 40px;
+}
+.contact .contact-content .right .row .info .sub-title a {
+    color: #2b4552;;
+}
+.contact .contact-content .right .row .info .sub-title a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+/* footer */
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeeae7;
+    padding: 20px 23px;
+}
+footer span {
+    color: #2b4552;
 }
