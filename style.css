@@ -66,6 +66,7 @@ html {
     background: url("frontPage1.jpg") no-repeat;
     background-position: 25% 48%;
     height: auto;
+    width: 100%;
     color: #eeeae7;
     min-height: 500px;
     font-family: 'Poppins', sans-serif;
