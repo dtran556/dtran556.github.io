@@ -222,7 +222,7 @@ section .title::before {
 .projects .projects-content p {
     text-align: justify;
 }
-.projects .projects-content .column .button  a {
+.projects .projects-content .button  a {
     display: inline-block;
     background: #557788;
     color: #2b4552;
@@ -234,7 +234,7 @@ section .title::before {
     border: 2px solid #557788;
     transition: all 0.2s ease-in;
 }
-.projects .projects-content .column .button a:hover {
+.projects .projects-content .button a:hover {
     color: #557788;
     background: none;
 }
