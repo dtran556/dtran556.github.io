@@ -14,7 +14,7 @@ html {
     margin: auto;
 }
 /* navBar*/
-.navBar {
+.navbar {
     position:fixed;
     width:100%;
     padding:30px 0;
