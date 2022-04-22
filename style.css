@@ -65,7 +65,7 @@ html {
     display:flex;
     background: url("frontPage1.jpg") no-repeat;
     background-position: 25% 48%;
-    height: 100vh;
+    height: auto;
     color: white;
     min-height: 500px;
     font-family: 'Poppins', sans-serif;
