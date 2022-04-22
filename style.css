@@ -8,3 +8,153 @@
 html {
     scroll-behavior: smooth;
 }
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navBar*/
+.navBar {
+    position:fixed;
+    width:100%;
+    padding:30px 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2 ease-in;
+    z-index: 999;
+}
+.navbar.sticky {
+    padding: 15px 0;
+    background: #557788;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block; 
+}
+.navbar .menu li a{
+    display: block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: all 0.2s ease-in;
+}
+.navbar .menu li a:hover{
+    color: #557788;
+}
+.navbar.sticky .menu li a:hover{
+    color: #2b4552;
+    transition: all 0.2s ease-in;
+}.menu-btn {
+    color: #FFF;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+/* Home Page*/
+.home {
+    display:flex;
+    background: url("frontPage.jpg") no-repeat;
+    background-position: 25% 48%;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1 {
+    color: #557788;
+    font-size: 27px;
+}
+.home .home-content .text-2 {
+    color: #557788;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3 {
+    color: #557788;
+    font-size: 40px;
+    margin: 5px 0;
+}
+/* GENERAL SECTION STYLING */
+section {
+    padding: 100px 0;
+}
+.aboutMe .aboutMe-content,
+.technicalSkills .technicalSkils-content,
+.projects .projects-content,
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;  
+}
+section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #2b4552;
+    transform: translateX(-50%);
+}
+
+/*about*/
+.aboutMe {
+    font-family: 'Poppins', sans-serif;  
+    background-color: #557788
+}
+.aboutMe .aboutMe-content .left {
+    width: 45%;
+}
+.aboutMe .aboutMe-content .left img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.aboutMe .about-content .right {
+    width: 55%;
+}
+.about .aboutMe-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutMe .aboutMe-content .right p {
+    text-align: justify;
+}
+.aboutMe .about-contentMe .right a {
+    display: inline-block;
+    background: #557788;
+    color: #2b4552;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #557788;
+    transition: all 0.2s ease-in;
+}
