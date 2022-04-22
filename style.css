@@ -15,7 +15,7 @@ html {
 }
 /* navBar*/
 .navbar {
-    position:auto;
+    position:fixed;
     width:100%;
     padding:30px 0;
     font-family: 'Poppins', sans-serif;
@@ -35,7 +35,6 @@ html {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-    margin-left: 50px;
 }
 .navbar .menu li {
     list-style: none;
@@ -46,7 +45,7 @@ html {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 25px;
     transition: all 0.2s ease-in;
 }
 .navbar .menu li a:hover{
@@ -64,7 +63,7 @@ html {
 /* Home Page*/
 .home {
     display:flex;
-    background: url("frontPage2.jpg") no-repeat;
+    background: url("frontPage.jpg") no-repeat;
     background-position: 25% 48%;
     height: auto;
     width: auto;
