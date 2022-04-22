@@ -201,6 +201,23 @@ section .title::before {
 .technicalSkills .technicalSkills .right .row i {
     font-size: 75px;
 }
+/*projects*/
+
+.projects {
+    background-color: #eeeae7;
+    font-family: 'Poppins', sans-serif;
+}
+.projects .projects-content .column {
+    width: calc(50% - 30px);
+}
+.projects .projects-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projects .projects-content .left p {
+    text-align: justify;
+}
 /* contact */
 .contact {
     background-color: #eeeae7;
