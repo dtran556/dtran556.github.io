@@ -165,8 +165,41 @@ section .title::before {
     color: #557788;
     background: none;
 }
-/* SKILLS SECTION STYLING */
-
+/* technical skills*/
+.technicalSkills {
+    background-color: #eeeae7;
+    font-family: 'Poppins', sans-serif;
+}
+.technicalSkills .technicalSkills-content .column {
+    width: calc(50% - 30px);
+}
+.technicalSkills .technicalSkills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.technicalSkills .technicalSkills-content .left p {
+    text-align: justify;
+}
+.technicalSkills .technicalSkills-content .right {
+    align-self: center;
+}
+.technicalSkills .technicalSkills-content .right .row {
+    width: 100%;
+    margin-left: 75px;
+    transition: all 0.2s ease-in;
+}
+.technicalSkills .technicalSkills-content .right .row img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.technicalSkills .technicalSkills-content .right .row i {
+    font-size: 75px;
+}
 /*projects*/
 
 .projects {
@@ -183,6 +216,22 @@ section .title::before {
 }
 .projects .projects-content .left p {
     text-align: justify;
+}
+.projects .projects-content .right a {
+    display: inline-block;
+    background: #557788;
+    color: #2b4552;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #557788;
+    transition: all 0.2s ease-in;
+}
+.projects .projects-content .right a:hover {
+    color: #557788;
+    background: none;
 }
 /* contact */
 .contact {
