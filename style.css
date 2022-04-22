@@ -14,46 +14,52 @@ html {
     margin: auto;
 }
 /* navBar*/
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding: 30px 0;
+.navbar {
+    position:fixed;
+    width:100%;
+    padding:30px 0;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.2s ease-in;
+    transition: all 0.2 ease-in;
     z-index: 999;
 }
-.navbar.sticky{
-    padding:15px 0;
-    background: #2b4552;
+.navbar.sticky {
+    padding: 15px 0;
+    background: #557788;
 }
-.navbar .max-width{
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+.navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    margin-left: 25px;
 }
 .navbar .menu li {
     list-style: none;
-    display:inline-block;
+    display: inline-block; 
 }
 .navbar .menu li a{
     display: block;
-    color: white;
+    color: #FFF;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: all 0.2s ease-in;
 }
 .navbar .menu li a:hover{
-    color: #2b4552;
+    color: #557788;
 }
 .navbar.sticky .menu li a:hover{
-    color: rgb(99, 18, 18);
-    transition: all 0.2s ease;
+    color: #2b4552;
+    transition: all 0.2s ease-in;
+}.menu-btn {
+    color: #FFF;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
 }
 
 /* MENU BTN STYLING */
