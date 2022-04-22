@@ -251,3 +251,109 @@ footer {
 footer span {
     color: #2b4552;
 }
+/* RESPONSIVE MEDIA QUERY START */
+@media (max-width: 1300px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1287px) {
+    .technicalSkills .technicalSkills-content .right .row img {
+        width: 80px;
+        height: 80px;
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .about .about-content .left img {
+        width: 350px;
+        height: 350px;
+    }
+    .technicalSkills .technicalSkills-content .right .row img {
+        width: 65px;
+        height: 65px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 921px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #abc5c9;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+    .max-width {
+        max-width: 800px;
+    }
+    .aboutMe .aboutMe-content .column {
+        width: 50%;
+    }
+    .aboutMe .aboutMe-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .aboutMe .aboutMe-content .right {
+        flex: 100%;
+    }
+    .technicalSkills .technicalSkills-content .column,
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    technicalSkills .technicalSkills-content .right .row {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+    .home .home-content .text-3 {
+        font-size: 32px;
+    }
+    .technicalSkills .technicalSkills-content .column {
+        width: 100%;
+    }
+}
