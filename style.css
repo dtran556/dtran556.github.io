@@ -207,9 +207,11 @@ section .title::before {
     font-family: 'Poppins', sans-serif;
 }
 .projects .projects-content .column {
+    color: #2b4552;
     width: calc(50% - 30px);
 }
 .projects .projects-content .text {
+    color: #2b4552;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
