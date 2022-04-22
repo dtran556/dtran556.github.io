@@ -166,41 +166,7 @@ section .title::before {
     background: none;
 }
 /* SKILLS SECTION STYLING */
-.technicalSkills {
-    font-family: 'Poppins', sans-serif;
-    background-color: #eeeae7;
-}
 
-.technicalSkills .technicalSkills-content .column {
-    width: calc(50% - 30px);
-}
-.technicalSkills .technicalSkills .left .text {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.technicalSkills .technicalSkills .left p {
-    text-align: justify;
-}
-.technicalSkills .technicalSkills.right {
-    align-self: center;
-}
-.technicalSkills .technicalSkills .right .row {
-    width: 100%;
-    margin-left: 75px;
-    transition: all 0.3s ease;
-}
-.technicalSkills .technicalSkills .right .row img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    vertical-align: middle;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-.technicalSkills .technicalSkills .right .row i {
-    font-size: 75px;
-}
 /*projects*/
 
 .projects {
@@ -225,12 +191,16 @@ section .title::before {
 }
 
 .contact .contact-content .column {
-    width: calc(50% - 30px);
+    width: calc(50% - 1px);
 }
 .contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.contact .contact-content .sub-title {
+    margin: 100px  -62px ;
+    
 }
 .contact .contact-content .left p {
     text-align: justify;
