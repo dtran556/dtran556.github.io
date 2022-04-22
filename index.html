@@ -2,63 +2,63 @@
 <html lang = "en-US">
     <head>
         <title>
-            Home Page
+            Daniel's Website
         </title>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale=1">
-        <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 0;
-            }
-            /*
-            REMEMBER TO PICK A COLOR THEME AND CHANGE THE HEADER ACCORDINGLY
-            */
-        .header {
-            padding: 80px;
-            text-align: center;
-            background:#1abc9c;
-            color:white;
-        }
-        .header h1 {
-            font-size: 40px;
-        }
-        .navbar {
-            overflow: hidden;
-            background-color: #333;
-        }
-        .navbar a {
-            float: right;
-            display: block;
-            color: azure;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration:none;
-        }
-        .navbar a.right {
-            float: top,right;
-        }
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        </style>
-        <body>
-            <div class = "header">
-                <h1>
-                    Hi, I'm Daniel!
-                </h1>
-                <p>
-                    Welcome to my website!
-                </p>
-            </div>
-            <div class = "navbar">
-                <a href="#">Contact Me</a>
-                <a href="#">Resume</a>
-                <a href="#">Projects</a>
-                <a href="#">Technical Skills</a>
-                <a href="#">About Me</a>
-            </div>
-        </body>
+        <link rel="stylesheet" href="style.css">
     </head>
+    <body>
+        <nav class="navbar">
+            <div class "max-width">
+                <div class = "logo">
+                    <a href= "#">Daniel Tran</a>
+                </div>
+                <ul class = "menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#aboutMe" class="menu-btn">About Me</a></li>
+                    <li><a href="#technicalSkills" class="menu-btn">Technical Skills</a></li>
+                    <li><a href="#projects" class="menu-btn">Projects</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact Me</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>  
+            </div>
+        </nav>
+        <!-- welcome page (home) -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hi, my name is</div>
+                    <div class="text-2">Daniel Tran
+                    </div>
+                    <div class="text-3">and I am a problem solver</div>
+                </div>
+            </div>
+        </section>
+        <!-- about me page (aboutME) -->
+        <section class= "aboutMe" id = "aboutMe">
+            <div class = "max-width">
+                <h2 class="title">About Me</h2>
+                <div class = "aboutMe-content">
+                    <div class="column left">
+                        <img src="images/profile.jpg " alt="">
+                    </div>
+                    <div class="column right">
+                        <div class="text">I'm Daniel and I'm an aspiring software engineer.</div>
+                        <p>
+                            I am a 21 year old computer science student at De Anza College. 
+                            I am pursing an associates degree in computer science and another in mathematics and 
+                            I am expected to finish in June of 2022. My goal is to transfer to a university and achieve a bachalors of sciences
+                            degree in computer science. When I am not learning or coding I enjoy exploring the nature, spending time with friends,
+                            and taking on building projects at home.
+                        </p>
+                        <a href="Resume.pdf" target="_blank">Feel free to look at my resume.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </body>
 </html>
