@@ -52,8 +52,8 @@ html {
     color: #2b4552;
 }
 .navbar.sticky .menu li a:hover{
-    color: #FFF;
-    transition: all 0.2s ease-in;
+    color: rgb(99, 18, 18);
+    transition: all 0.2s ease;
 }
 
 /* MENU BTN STYLING */
