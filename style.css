@@ -150,6 +150,9 @@ section .title::before {
 .aboutMe .aboutMe-content .right {
     width: 55%;
 }
+.aboutMe .about-content .text {
+    color: #2b4552;
+}
 .about .aboutMe-content .right .text {
     color: #2b4552;
     font-size: 25px;
